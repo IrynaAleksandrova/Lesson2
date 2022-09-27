@@ -5,5 +5,6 @@ public class Main {
         Scanner console = new Scanner(System.in);
         String user = console.nextLine();
         System.out.println("Hello " + user);
+        console.close();
     }
 }
